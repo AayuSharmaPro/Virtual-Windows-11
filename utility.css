@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&family=Ubuntu&display=swap');
+
+:root {
+    --primary-font:'Ubuntu', sans-serif;
+    --secondary-font:'Roboto', sans-serif;
+    --window-screen-color:#2980B9, #6DD5FA, #ffffff;
+    --taskbar-main-color:#e2edf9;
+    --text-primary-color:#484a4e;
+    --notification-center-color:#00c033;
+    --notification-center-txt:white;
+    --notification-hover-color:#edf4fa;
+    --notification-icon-color:#f6f8f9;
+    --window-hover-color:#f8fbfe;
+    --setting-main-color:#eff4f9;
+    --setting-function-color:#fdfdfd;
+    --setting-hover-color:#e6ebf0;
+    
+}
+
+/* notification-click-color */
+.notification-click-color {
+    --notification-icon-color:#0067c0;
+    --text-primary-color:white;
+}
+.main-font {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: var(--text-primary-color);
+}
+.mar-top {
+    margin-top: 30px;
+}
+.mar-bot {
+    margin-bottom: 8px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex-cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border: 2px solid black;
+}
+.icon-width{
+    width: 8%;
+    height: 82%;
+}
+.icon-background-setting {
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.cursor {
+    cursor: default;
+}
+.mar{
+    margin-left: 10px;
+}
+.fun-border-rad{
+    border-radius: 6px;
+}
+.win-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/* hover-section */
+.win-icon:hover, .recent-icon:hover, .video-icon:hover, .file-icon:hover, .gmail-icon:hover, .edge-icon:hover, .chrome-icon:hover, .vs-code-icon:hover, .whatsapp-icon:hover, .noti-date:hover, .wifi-vol-bat:hover, .english:hover, .arrow:hover{
+    background-color: var(--window-hover-color);
+}
+.notification-click-color:hover{
+    background-color: #003e92;
+}
+.noti-hover:hover {
+    background-color: var(--notification-hover-color);
+}
+
+
+
+/* ======================================================== */
+
+/* Setting-aaplication-utility */
+.icon-wid-high {
+    width: 33%; 
+    height: 100%;
+}
+.setting-main-header-color {
+    background-color: var(--setting-main-color);
+}
+.setting-icon-wid-high {
+    width: 11%;
+    height: 70%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-inline: 18px;
+}
+.left-side-user-profile:hover, .right-page-all-fun:hover, .left-side-all-funct:hover {
+    background-color: var(--setting-hover-color);
+    transition: background-color 0.1s ease-in;
+}
+.non-dis {
+    display: none;
+}
+.mr-down {
+    margin-bottom: 80px;
+}
+.mr-right {
+    margin-right: 30px;
+}
+.theme-hight {
+    height: 35%;
+}
+.big-fun-font {
+    font-size: 1.2rem;
+    color: var(--text-primary-color);
+    font-family: var(--primary-font);
+    font-weight: bold;
+    margin-left: 15px;
+    /* margin-right: 20px; */
+}
+.flex-start {
+    justify-content: flex-start;
+}
+.main-font-family {
+    font-family: var(--primary-font);
+    color: var(--text-primary-color);   
+}
+.icon-main-color {
+    color: var(--text-primary-color);
+}
+.on_off_icon-color {
+    color: var(--notification-center-color); 
+}
+/* win-taskbar-utility */
+.task-app-div:hover, .all-recent-use-file-name:hover, .taskbar-user-div:hover, .Log-out-btn:hover, .page-2-all-apps:hover {
+    background-color: var(--window-hover-color);
+}
+.fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

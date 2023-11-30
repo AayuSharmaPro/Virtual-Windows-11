@@ -1,0 +1,2183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="window-images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="setting_app.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Virtual-window</title>
+</head>
+
+<body>
+    <!-- window-11 start -->
+    <div class="container">
+        <div id="mainScreenColor" class="main-screen ">
+            <!-- window video -->
+            <div class="video-screen" id="video-src">
+                <video autoplay  muted width="100%" height="100%">
+                    <source src="window-images/video.webm" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- setting application -->
+            <div class="Setting-app-main-div" id="close-set-page">
+                <!-- setting-win-name -->
+                <div class="setting-name flex cursor"><i class='fas fa-arrow-left'></i>
+                    <p>Setting</p>
+                </div>
+                <!-- CLosing-navigation-icon -->
+                <div class="setting-page-close-icon flex">
+                    <div class="minimise flex-cent icon-wid-high">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="zoom flex-cent icon-wid-high">
+                        <i class="fa-regular fa-square"></i>
+                    </div>
+                    <div class="closing flex-cent icon-wid-high" id="close-pg">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+                <!-- closing-app-ends -->
+
+                <!-- setting-application-popup-page -->
+                <div class="setting-main-page" id="setting-page">
+                    <div class="setting-main-page-icon" id="setting-main-icon"></div>
+                </div>
+                <!-- ends-setting-popup-page -->
+
+                <!-- main-setting-div -->
+                <div class="main-window-setting-page" id="mai-set-pg">
+                    <!-- setting-left-side -->
+                    <!-- user-profile -->
+                    <div class="left-side-user-profile flex fun-border-rad cursor">
+                        <div class="user-photo"></div>
+                        <div class="user-name">
+                            <h3>Aayush Sharma</h3>
+                            <p>aayushsharma218@gmail.com</p>
+                        </div>
+                        <!-- ends -->
+                    </div>
+                    <!-- left-mai-toggle-function-start -->
+                    <div class="set-left-side">
+                        <div class="find-setting fun-border-rad win-shadow flex">
+                            <input type="text" placeholder="Find a setting">
+                            <div class="sear-icon flex-cent"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        </div>
+                        <!-- other-function -->
+                        <!-- function-1 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-1 setting-icon-wid-high"></div>
+                            <p>System</p>
+                        </div>
+                        <!-- function-2 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-2 setting-icon-wid-high"></div>
+                            <p>Bluetooth & device</p>
+                        </div>
+                        <!-- function-3 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-3 setting-icon-wid-high"></div>
+                            <p>Network & internet</p>
+                        </div>
+                        <!-- function-4 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-4 setting-icon-wid-high"></div>
+                            <p>Personalization</p>
+                        </div>
+                        <!-- function-5 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-5 setting-icon-wid-high"></div>
+                            <p>Apps</p>
+                        </div>
+                        <!-- function-6 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-6 setting-icon-wid-high"></div>
+                            <p>Account</p>
+                        </div>
+                        <!-- function-7 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-7 setting-icon-wid-high"></div>
+                            <p>Time & language</p>
+                        </div>
+                        <!-- function-8 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-8 setting-icon-wid-high"></div>
+                            <p>Gaming</p>
+                        </div>
+                        <!-- function-9 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-9 setting-icon-wid-high"></div>
+                            <p>Accessibility</p>
+                        </div>
+                        <!-- function-10 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-10 setting-icon-wid-high"></div>
+                            <p>Privacy & security</p>
+                        </div>
+                        <!-- function-11 -->
+                        <div class="left-side-all-funct fun-border-rad flex">
+                            <div class="system-icon-11 setting-icon-wid-high"></div>
+                            <p>Window Update</p>
+                        </div>
+                    </div>
+                    <!-- left-page-ends -->
+                    <!-- right-side-setting-page -->
+                    <div class="right-page-main-heading cursor flex">
+                        <h1>System</h1>
+                    </div>
+                    <!-- ======================================================== -->
+                    <!-- open-system-setting-page -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-laptop flex"></i>
+                                <div>
+                                    <h3>Display</h3>
+                                    <p>Monitor, brightness, night light, display profile</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-volume-up'></i>
+                                <div>
+                                    <h3>Sound</h3>
+                                    <p>Volume level, output, input, sound device</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-bell'></i>
+                                <div>
+                                    <h3>Notifications</h3>
+                                    <p>Alerts from apps and system, do not disturb</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-eye-slash'></i>
+                                <div>
+                                    <h3>Focus</h3>
+                                    <p>Reduce distraction</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-power-off'></i>
+                                <div>
+                                    <h3>Power & battery</h3>
+                                    <p>Sleep, battery usage, battery saver</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-hdd'></i>
+                                <div>
+                                    <h3>Storage</h3>
+                                    <p>Storage space, drivers, configuration rules</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-share-square'></i>
+                                <div>
+                                    <h3>Nearby sharing</h3>
+                                    <p>Discoverability, received files location</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-8 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-window-restore'></i>
+                                <div>
+                                    <h3>Multitasking</h3>
+                                    <p>Snap window, dekstop, task switching</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-9 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-check-circle'></i>
+                                <div>
+                                    <h3>Activation</h3>
+                                    <p>Activation state, subscription, product key</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-10 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-wrench'></i>
+                                <div>
+                                    <h3>Troubleshoot</h3>
+                                    <p>Recommended troubleshooter, preference, history</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-10 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-sync-alt'></i>
+                                <div>
+                                    <h3>Recovery</h3>
+                                    <p>Reset, advanced startup, go back</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-11 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-desktop'></i>
+                                <div>
+                                    <h3>Project to this pc</h3>
+                                    <p>Permission, pairing PIN, discoverability</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-12 -->
+                        <div class="right-page-all-fun fun-border-rad flex mr-down">
+                            <div class="rg-fun-all flex"><i class='fas fa-exclamation-circle'></i>
+                                <div>
+                                    <h3>About</h3>
+                                    <p>Device specification, rename PC, window specifications </p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- right-page-end -->
+                    <!-- ============================================================-->
+                    <!-- open-bluetooth-setting-option -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fab fa-bluetooth-b' style='font-size:24px'></i>
+                                <div>
+                                    <h3>Bluetooth</h3>
+                                    <p>Discoverable as "LAPTOP-EH0NS87G"</p>
+                                </div>
+                            </div>
+                            <div class="bl-toggle flex">
+                                <p>off</p>
+                                <i class='fas fa-toggle-off bl-off'></i>
+                                <i class='fas fa-toggle-on bl-on'></i>
+                            </div>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-keyboard'></i>
+                                <div>
+                                    <h3>Device</h3>
+                                    <p>Mouse, keyboard, pen, audio, displays and docks, other devices</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-print'></i></i>
+                                <div>
+                                    <h3>Printers & scanners</h3>
+                                    <p>Prefertences, troubleshoot</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-mobile-alt'></i>
+                                <div>
+                                    <h3>Phone Link</h3>
+                                    <p>Instant access your Android devices's photos, text, and more</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-camera'></i>
+                                <div>
+                                    <h3>Cameras</h3>
+                                    <p>Connected cameras, default image settings</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-computer-mouse"></i>
+                                <div>
+                                    <h3>Mouse</h3>
+                                    <p>Buttons, mouse pointers speed, scrolling</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-tablet-alt'></i>
+                                <div>
+                                    <h3>Touchpad</h3>
+                                    <p>Taps, guestures, scrolling, zooming</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-8 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-pen'></i>
+                                <div>
+                                    <h3>Pen & Windows link</h3>
+                                    <p>Taps, guestures, scrolling, zooming</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-9 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-play-circle'></i>
+                                <div>
+                                    <h3>Autoplay</h3>
+                                    <p>Defaults for removable drivers and memory cards</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-10 -->
+                        <div class="right-page-all-fun fun-border-rad flex mr-down">
+                            <div class="rg-fun-all flex"><i class="fa-brands fa-usb"></i>
+                                <div>
+                                    <h3>USB</h3>
+                                    <p>Notification, USB battery saver</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+                    <!-- open network & internet -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-main-icon-fun -->
+                        <div class="right-page-big-fun flex">
+                            <div class="sub-big-fun-1 flex">
+                                <i class="fa-solid fa-wifi"></i>
+                                <p>Wi-Fi</p>
+                            </div>
+                            <div class="sub-big-fun-2 flex ">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <p class="big-fun-font">Properties</p>
+                            </div>
+                            <div class="sub-big-fun-3 flex ">
+                                <i class="fa-sharp fa-solid fa-chart-pie"></i>
+                                <p class="big-fun-font mr-right">Data usage</p>
+                                <i class='fas fa-chevron-right'></i>
+                            </div>
+                        </div>
+                        <!-- ends -->
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-wifi"></i>
+                                <div>
+                                    <h3>Wifi</h3>
+                                    <p>Connect, manage known networks, metered network</p>
+                                </div>
+                            </div>
+                            <div class="bl-toggle flex">
+                                <p>off</p>
+                                <i class='fas fa-toggle-off bl-off'></i>
+                                <i class='fas fa-toggle-on bl-on'></i>
+                            </div>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-ethernet"></i>
+                                <div>
+                                    <h3>Ethernet</h3>
+                                    <p>Authentication, IP and DNS settings, metered network</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-shield-halved"></i>
+                                <div>
+                                    <h3>VPN</h3>
+                                    <p>Add, connect, manage</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-broadcast-tower'></i>
+                                <div>
+                                    <h3>Mobile hotspot</h3>
+                                    <p>Share your internet connection</p>
+                                </div>
+                            </div>
+                            <div class="bl-toggle flex">
+                                <p>off</p>
+                                <i class='fas fa-toggle-off bl-off'></i>
+                                <i class='fas fa-toggle-on bl-on'></i>
+                            </div>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-plane'></i>
+                                <div>
+                                    <h3>Airplane mode</h3>
+                                    <p>Stop wireless network</p>
+                                </div>
+                            </div>
+                            <div class="bl-toggle flex">
+                                <p>off</p>
+                                <i class='fas fa-toggle-off bl-off'></i>
+                                <i class='fas fa-toggle-on bl-on'></i>
+                            </div>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-server"></i>
+                                <div>
+                                    <h3>Proxy</h3>
+                                    <p>Proxy server for Wi-Fi and Ethernet connection</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-tty'></i>
+                                <div>
+                                    <h3>Dial-up</h3>
+                                    <p>Set up a dial-up internet connection</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex  mr-down">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-network-wired"></i>
+                                <div>
+                                    <h3>Advanced network settings</h3>
+                                    <p>View all network adapters, network reset</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+
+                    <!-- open personalization-page-setting -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-main-icon-fun -->
+                        <div class="right-page-big-fun flex flex-start theme-hight">
+                            <!-- Main-theme-photo -->
+                            <div class="mainPhoto mr-right">
+                                <img id="MainWIntheme" src="window-images/win-light-theme.png" alt="Window-light-Theme">
+                            </div>
+                            <!--All-other-photo-slider -->
+                            <div class="main-slider-div">
+                                <p class="main-font mar">Select a theme to apply</p>
+                                <div class="Image-wrapper flex">
+                                    <img class="imgCarousel fun-border-rad" src="window-images/win-light-theme.png"
+                                        alt="Window-light-theme">
+                                    <img class="imgCarousel fun-border-rad" src="window-images/win-dark-theme.png"
+                                        alt="Window-dark-theme">
+                                    <img class="imgCarousel fun-border-rad" src="window-images/win-purple-theme.png"
+                                        alt="Window-purple-theme">
+                                    <img class="imgCarousel fun-border-rad" src="window-images/win-silver-theme.png"
+                                        alt="Window-silver-theme">
+                                    <img class="imgCarousel fun-border-rad" src="window-images/win-red-theme.png"
+                                        alt="Window-red-theme">
+                                    <img class="imgCarousel fun-border-rad" src="window-images/win-blue.png"
+                                        alt="Window-blue-theme">
+                                </div>
+                            </div>
+                            <!-- slider-end          -->
+                        </div>
+                        <!-- ends -->
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-image'></i>
+                                <div>
+                                    <h3>Background</h3>
+                                    <p>background image, color, slideshow</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-palette"></i>
+                                <div>
+                                    <h3>Colors</h3>
+                                    <p>Accent color, transparency effects, color theme</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-paintbrush"></i>
+                                <div>
+                                    <h3>Themes</h3>
+                                    <p>Install, create, manage</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-desktop"></i>
+                                <div>
+                                    <h3>Lock screen</h3>
+                                    <p>Lock screen images, apps, animations</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-regular fa-keyboard"></i>
+                                <div>
+                                    <h3>Text input</h3>
+                                    <p>Touch keyboard, voice typing, emoji and more, input method editor</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-table-list"></i>
+                                <div>
+                                    <h3>Start</h3>
+                                    <p>Recent apps and items. folders</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-grip-lines'></i>
+                                <div>
+                                    <h3>Taskbar</h3>
+                                    <p>Taskbar behaviors, system pins</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-8 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-font"></i>
+                                <div>
+                                    <h3>Fonts</h3>
+                                    <p>Install, manage</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-9 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-check-to-slot"></i>
+                                <div>
+                                    <h3>Device usage</h3>
+                                    <p>Select all the way you plan touse your device to get personalized, tips, ads, and
+                                        recommendations with Microsoft experiences</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+
+                    <!-- open Apps-page-setting -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-list'></i>
+                                <div>
+                                    <h3>Installed apps</h3>
+                                    <p>Uninstall and manage apps on your PC</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-cogs'></i>
+                                <div>
+                                    <h3>Advanced app settings</h3>
+                                    <p>Choose where to get apps, archive apps, uninstall updates</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-file-circle-check"></i>
+                                <div>
+                                    <h3>Default apps</h3>
+                                    <p>Default for file and link types, other defaults</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <h3>Offline maps</h3>
+                                    <p>Downloads, storage location, map updates</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-cubes-stacked"></i>
+                                <div>
+                                    <h3>Optional features</h3>
+                                    <p>Extra functionality for your device</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-square-arrow-up-right"></i>
+                                <div>
+                                    <h3>Apps for website</h3>
+                                    <p>Websites that can open in an app instead of a browser</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-video"></i>
+                                <div>
+                                    <h3>Video playback</h3>
+                                    <p>Video adjustments, HDR straming, battery options</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-8 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-upload'></i>
+                                <div>
+                                    <h3>Startup</h3>
+                                    <p>Apps that start automatically when you sign in</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+
+                    <!--Account-setting-page   -->
+                    <div class="right-side-main-setting-page cursor">
+                        <div class="main-font mar-top mar-bot">
+                            <p>Account settings</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-user-cog'></i>
+                                <div>
+                                    <h3>Your info</h3>
+                                    <p>Profile photo</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-sharp fa-solid fa-key"></i>
+                                <div>
+                                    <h3>Sign-in option</h3>
+                                    <p>Windows hello, security key, passward, dynamic lock</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h3>Email & accounts</h3>
+                                    <p>Accounts used by email, calender, and contacts</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-heart-pulse"></i>
+                                <div>
+                                    <h3>Family</h3>
+                                    <p>Manage your family group, edit account type and devices permissions</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-sync'></i>
+                                <div>
+                                    <h3>Windows backup</h3>
+                                    <p>Backup your files, apps, preferences to restore them across devices</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-sharp fa-solid fa-user-plus"></i>
+                                <div>
+                                    <h3>Other users</h3>
+                                    <p>Device access, work or school users, kiosk assigned access</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-suitcase"></i>
+                                <div>
+                                    <h3>Access work or school</h3>
+                                    <p>Organisation resources like email, apps, and network</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <div class="main-font mar-top mar-bot">
+                            <p>Related settings</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-shield-halved"></i>
+                                <div>
+                                    <h3>Account privacy</h3>
+                                    <p>View your privacy dashboard and manage activity data</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-file-alt'></i>
+                                <div>
+                                    <h3>Subscriptions</h3>
+                                    <p>Manage services subscriptions from microsoft</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-credit-card"></i>
+                                <div>
+                                    <h3>Payment options</h3>
+                                    <p>Manage how you pay for purchases with your Microsoft account</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-clock-rotate-left"></i>
+                                <div>
+                                    <h3>Order history</h3>
+                                    <p>View recent purchases made with your Microsoft account</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex mr-down">
+                            <div class="rg-fun-all flex"><i class='far fa-question-circle'></i>
+                                <div>
+                                    <h3>Account & billing help</h3>
+                                    <p>Get support for subscriptions, payments, and billing</p>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+                    <!-- open Time & language -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-main-icon-fun -->
+                        <div class="right-page-big-fun flex flex-start">
+                            <div class="show-time-date">
+                                <h3 class="main-font"></h3>
+                                <p id="s-date"></p>
+                            </div>
+                        </div>
+                        <!-- ends -->
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-clock'></i>
+                                <div>
+                                    <h3>Date & time</h3>
+                                    <p>Time zone, automatic clock settings, calender display</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-language"></i>
+                                <div>
+                                    <h3>Language & region</h3>
+                                    <p>Windows display language, preferred languages, regional formats</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-keyboard'></i>
+                                <div>
+                                    <h3>Typing</h3>
+                                    <p>Touch keyboard, text suggestions, preferences</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-microphone-alt'></i>
+                                <div>
+                                    <h3>Speech</h3>
+                                    <p>speech language, speech recognition microphone setup, voices</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+                    <!-- open-gaming-setting-page -->
+                    <div class="right-side-main-setting-page cursor">
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fab fa-xbox'></i>
+                                <div>
+                                    <h3>Xbox Game Bar</h3>
+                                    <p>Controller and keyboard shortcuts</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-file-video'></i>
+                                <div>
+                                    <h3>Captures</h3>
+                                    <p>Save location, recording preferences</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-gamepad"></i>
+                                <div>
+                                    <h3>Game Mode</h3>
+                                    <p>Optimize your PC for play</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+                    <!--Accessibility   -->
+                    <div class="right-side-main-setting-page cursor">
+                        <div class="main-font mar-top mar-bot">
+                            <p>Vision</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-font"></i>
+                                <div>
+                                    <h3>Text size</h3>
+                                    <p>Text size that appears throughout Windows and your apps</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <div>
+                                    <h3>Visual effects</h3>
+                                    <p>Scrool bars, transparency, animation, notification timeout</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-arrow-pointer"></i>
+                                <div>
+                                    <h3>Mouse pointer and touch</h3>
+                                    <p>Mouse pointer color, size</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-i-cursor"></i>
+                                <div>
+                                    <h3>Text cursor</h3>
+                                    <p>Apperance and thickness, text cursor indicator</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <div>
+                                    <h3>Magnifier</h3>
+                                    <p>Magnifier reading, zoom increment</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-palette"></i>
+                                <div>
+                                    <h3>Color filters</h3>
+                                    <p>Colorblindness filters, grayscale, inverted</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-circle-half-stroke"></i>
+                                <div>
+                                    <h3>Contrast themes</h3>
+                                    <p>Color themes for low vision, light sensitivity</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-8 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-audio-description"></i>
+                                <div>
+                                    <h3>Narrator</h3>
+                                    <p>Voice, verbosity, keyboard, braille</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <div class="main-font mar-top mar-bot">
+                            <p>Hearing</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-volume-high"></i>
+                                <div>
+                                    <h3>Audio</h3>
+                                    <p>Mono audio. audio notification</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-regular fa-closed-captioning"></i>
+                                <div>
+                                    <h3>Captions</h3>
+                                    <p>Styles, live caption</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <div class="main-font mar-top mar-bot">
+                            <p>Interaction</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-microphone-alt'></i>
+                                <div>
+                                    <h3>Speech</h3>
+                                    <p>Voice access (preview), voice typing, Windows Speech Recognition</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-regular fa-keyboard"></i>
+                                <div>
+                                    <h3>Keyboard</h3>
+                                    <p>Stickey, Filter, and Toggle keys, on-screen keyboard</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-computer-mouse"></i>
+                                <div>
+                                    <h3>Mouse</h3>
+                                    <p>Mouse keys, speed, acceleration</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-arrows-to-eye"></i>
+                                <div>
+                                    <h3>Eye control</h3>
+                                    <p>Eye tracker, text-to-speech</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+                    <!-- open privacy & security-page -->
+                    <div class="right-side-main-setting-page cursor">
+                        <div class="main-font mar-top mar-bot">
+                            <p>Vision</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-shield"></i>
+                                <div>
+                                    <h3>Window Security</h3>
+                                    <p>Antivirus, browser, firewall, and network protection for your device</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-map-pin"></i>
+                                <div>
+                                    <h3>Find my device</h3>
+                                    <p>Track your device if you think you've lost it</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex">
+                                <i class='fas fa-tools'></i>
+                                <div>
+                                    <h3>For developers</h3>
+                                    <p>These settings are intended for development use only</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <div class="main-font mar-top mar-bot">
+                            <p>Windows permissions</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-lock'></i>
+                                <div>
+                                    <h3>General</h3>
+                                    <p>Advertising ID, local content, app launches, settings suggestions, productivity
+                                        tools</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-microphone-alt'></i>
+                                <div>
+                                    <h3>Speech</h3>
+                                    <p>Online speech recognition for dictation and other voice-based interactions</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-clipboard'></i>
+                                <div>
+                                    <h3>Inking & typing personalization</h3>
+                                    <p>Custom dictionary, words in your dictionary</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-chart-line'></i>
+                                <div>
+                                    <h3>Diagnostics & feedback</h3>
+                                    <p>Diagnostic data, inking and typing data, tailored experiences, feedback frequency
+                                    </p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-clock-rotate-left"></i>
+                                <div>
+                                    <h3>Activity history</h3>
+                                    <p>Options for getting more from your activity history across devices and accounts
+                                    </p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-passport'></i>
+                                <div>
+                                    <h3>Search permissions</h3>
+                                    <p>safeSearch, cloud content search, search history</p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-magnifying-glass"></i>
+                                <div>
+                                    <h3>Searching Windows</h3>
+                                    <p>Search indexing for faster results, Find My Files, folders excluded from search
+                                    </p>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <div class="main-font mar-top mar-bot">
+                            <p>App permissioons</p>
+                        </div>
+                        <!-- right-page-fun-1 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-location-arrow"></i>
+                                <div>
+                                    <h3>Location</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-2 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-camera'></i>
+                                <div>
+                                    <h3>Camera</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-3 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-microphone"></i>
+                                <div>
+                                    <h3>Microphone</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-4 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-microphone-alt'></i>
+                                <div>
+                                    <h3>Voice activation</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-5 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-bell'></i>
+                                <div>
+                                    <h3>Notification</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-6 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-user"></i>
+                                <div>
+                                    <h3>Account info</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-7 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-user-friends'></i>
+                                <div>
+                                    <h3>Contacts</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-8 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-calendar-alt'></i>
+                                <div>
+                                    <h3>Calendar</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-9 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <h3>Phone calls</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-10 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-clock-rotate-left"></i>
+                                <div>
+                                    <h3>Call history</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-11 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h3>Email</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-12 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-calendar-check'></i>
+                                <div>
+                                    <h3>Tasks</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-13 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-comment-dots'></i>
+                                <div>
+                                    <h3>Messaging</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-14 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-broadcast-tower'></i>
+                                <div>
+                                    <h3>Radios</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-15 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-laptop-house'></i>
+                                <div>
+                                    <h3>Other devices</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-16 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-chart-line'></i>
+                                <div>
+                                    <h3>App diagnostics</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-17 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-cloud"></i>
+                                <div>
+                                    <h3>Automatic file downloads</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-18 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-file"></i>
+                                <div>
+                                    <h3>Documents</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-19 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-file-arrow-down"></i>
+                                <div>
+                                    <h3>Downloads folder</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-20 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-music"></i>
+                                <div>
+                                    <h3>Music library</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-21 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-image"></i>
+                                <div>
+                                    <h3>Pictures</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-22 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-photo-film"></i>
+                                <div>
+                                    <h3>Videos</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-23 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class="fa-solid fa-file-lines"></i>
+                                <div>
+                                    <h3>File system</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-24 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='fas fa-expand'></i>
+                                <div>
+                                    <h3>Screenshot borders</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                        <!-- right-page-fun-25 -->
+                        <div class="right-page-all-fun fun-border-rad flex">
+                            <div class="rg-fun-all flex"><i class='far fa-images'></i>
+                                <div>
+                                    <h3>Screenshota and apps</h3>
+                                </div>
+                            </div>
+                            <i class='fas fa-chevron-right'></i>
+                        </div>
+                        <!-- function-ends -->
+                    </div>
+                    <!-- ends -->
+                    <!-- ======================================================== -->
+                </div>
+                <!-- end-setting-function-div -->
+            </div>
+            <!-- setting-app-ends -->
+            <!-- ===================================================================================== -->
+            <!-- Notification and functional panel -->
+            <div class="function-panel win-shadow" id="notify">
+                <div class="function-container">
+                    <!-- wifi-function -->
+                    <div class="fun-1">
+                        <div class="fun-box-1 fun-border-rad win-shadow noti-hover">
+                            <div class="fun-bw-ic flex-cent"><i class="fa-solid fa-wifi"></i>
+                            </div>
+                            <div class="fun-bw-arr flex-cent"><i class='fas fa-angle-right'></i>
+                            </div>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>CHANDAL-5G</p>
+                        </div>
+                    </div>
+                    <!-- Bluetooth function -->
+                    <div class="fun-1">
+                        <div class="fun-box-1 fun-border-rad win-shadow noti-hover">
+                            <div class="fun-bw-ic flex-cent"><i class='fab fa-bluetooth-b'></i>
+                            </div>
+                            <div class="fun-bw-arr flex-cent"><i class='fas fa-angle-right'></i>
+                            </div>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Bluetooth</p>
+                        </div>
+                    </div>
+                    <!-- Airplane-mode function -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class='fas fa-plane'></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Airplane mode</p>
+                        </div>
+                    </div>
+                    <!--Battery Saver function  -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class='fas fa-leaf'></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Battery saver</p>
+                        </div>
+                    </div>
+                    <!-- ACessibility function -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class="fa-brands fa-accessible-icon"></i>
+                            <i class='fas fa-angle-right mar'></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Accessibility</p>
+                        </div>
+                    </div>
+                    <!-- Project -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class='far fa-window-restore'></i>
+                            <i class='fas fa-angle-right mar'></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Project</p>
+                        </div>
+                    </div>
+                    <!--Night-mode function  -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class="fa-regular fa-moon"></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Night light</p>
+                        </div>
+                    </div>
+                    <!-- Mobile hotspot -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class='fas fa-broadcast-tower'></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Mobile hotspot</p>
+                        </div>
+                    </div>
+                    <!-- Cast-mode function -->
+                    <div class="fun-1">
+                        <div class="fun-box-2 fun-border-rad flex-cent win-shadow noti-hover">
+                            <i class='fas fa-tv'></i>
+                            <i class='fas fa-angle-right mar'></i>
+                        </div>
+                        <div class="fun-txt flex-cent">
+                            <p>Cast</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- brightness slider -->
+                <div class="brightness-range flex-cent">
+                    <i class="fas fa-sun"></i>
+                    <div class="brightness-box flex">
+                        <input type="range" id="range" min="10" max="100" value="100">
+                    </div>
+                </div>
+                <!-- ends -->
+                <!-- volume slider -->
+                <div class="volume-range flex-cent">
+                    <i class='fas fa-volume-up'></i>
+                    <div class="brightness-box flex">
+                        <input type="range" id="range" min="10" max="100" value="100">
+                    </div>
+                </div>
+                <!-- ends -->
+                <!-- notification-center-footer -->
+                <div class="notification-footer flex">
+                    <!-- battery-percentage -->
+                    <div class="bettry-per flex">
+                        <i class="fa-solid fa-battery-full bat-icon"></i>
+                        <i class='fas fa-battery-three-quarters bat-icon'></i>
+                        <i class='fas fa-battery-half bat-icon'></i>
+                        <i class='fas fa-battery-quarter bat-icon'></i>
+                        <i class='fas fa-battery-empty bat-icon'></i>
+                        <p id="per%" class="cursor">100%</p>
+                    </div> <!-- ends -->
+                    <!--left-setting-rename -->
+                    <div class="setting-ren flex">
+                        <i class="fa-solid fa-pencil"></i>
+                        <i class='fas fa-cog' id="set-sp"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ===========================================Ends================================================ -->
+            <!-- Taskabr functional panel -->
+            <div class="Taskabr-main-fun-panel fun-border-rad win-shadow" id="TaskBar-Fun-panel">
+                <!-- search-bar -->
+                <div class="task-search-bar fun-border-rad mar-top">
+                    <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Type here to search">
+                </div>
+                <!-- main-moving-taskabr-div -->
+                <div class="main-moving-taskbar-div mar-top cursor" id="Taskbar-Chnge">
+                    <!-- pinned heading -->
+                    <div class="pinned-main-div flex fun-border-rad mar-bot">
+                        <div>
+                            <h2>Pinned</h2>
+                        </div>
+                        <div class="all-apps-btn flex fun-border-rad win-shadow main-font-family sml_font">
+                            <p>All Apps</p><i class='fas fa-chevron-right main-font-family'></i>
+                        </div>
+                    </div>
+                    <!-- ends -->
+                    <!-- main-apps-div -->
+                    <div class="main-All-apps-div">
+                        <!-- row-1 -->
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-edge-96.png" alt="Microsoft-Edge">
+                            </div>
+                            <p>Edge</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-excel-2019-96.png" alt="Microsoft-Excel">
+                            </div>
+                            <p>Excel</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-word-2019-96.png" alt="Microsoft-ward">
+                            </div>
+                            <p>Word</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-powerpoint-2019-96.png"
+                                    alt="Microsoft-Powerpoint">
+                            </div>
+                            <p>PowerPoint</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-calendar-96.png" alt="calender">
+                            </div>
+                            <p>Calender</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-netflix-desktop-app-96.png" alt="Netfl;ix">
+                            </div>
+                            <p>Netflix</p>
+                        </div>
+                        <!-- row-2 -->
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-store-96.png" alt="Microsoft-Store">
+                            </div>
+                            <p>Microsoft Store</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-photos-96.png" alt="Photos">
+                            </div>
+                            <p>Photos</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-gear-94.png" alt="Setting">
+                            </div>
+                            <p>Settings</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-films-&-tv-96.png" alt="Film & TV">
+                            </div>
+                            <p>Film & TV</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-solitaire-collection-96.png" alt="Solitaire">
+                            </div>
+                            <p>Solitaire</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-to-do-app-96.png" alt="Microsoft-To-Do">
+                            </div>
+                            <p>To Do</p>
+                        </div>
+                        <!-- row-3 -->
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-facebook-96.png" alt="Facebook">
+                            </div>
+                            <p>Facebook</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-xbox-96.png" alt="Xbox">
+                            </div>
+                            <p>Xbox</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-amazon-prime-video-96.png" alt="Prime video">
+                            </div>
+                            <p>Prime Video</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-teams-2019-96.png" alt="Microsoft-Team">
+                            </div>
+                            <p>Microsoft Team</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-microsoft-paint-96 (1).png" alt="Paint">
+                            </div>
+                            <p>Paint</p>
+                        </div>
+                        <div class="task-app-div main-font-family fun-border-rad">
+                            <div class="App-fun-icon">
+                                <img src="window-images/icons8-vlc-96.png" alt="Microsoft-Edge">
+                            </div>
+                            <p>VLC</p>
+                        </div>
+                    </div>
+                    <!-- recommded -->
+                    <div class="pinned-main-div flex fun-border-rad">
+                        <div>
+                            <h2>Recommended</h2>
+                        </div>
+                        <div class="all-apps-btn flex win-shadow main-font-family sml_font">
+                            <p>More</p><i class='fas fa-chevron-right'></i>
+                        </div>
+                    </div>
+                    <!-- ends -->
+                    <!-- recent-use-files -->
+                    <div class="recent-use-file">
+                        <!-- video-1 -->
+                        <div class="all-recent-use-file-name flex fun-border-rad main-font-family">
+                            <div class="recent-aap-icon ">
+                                <img src="window-images/icons8-vlc-96.png" alt="vlc">
+                            </div>
+                            <div class="recent-app-text sml_font">
+                                <h4>HTML video</h4>
+                                <p>19h ago</p>
+                            </div>
+                        </div>
+                        <!-- video-2 -->
+                        <div class="all-recent-use-file-name fun-border-rad flex main-font-family">
+                            <div class="recent-aap-icon ">
+                                <img src="window-images/icons8-vlc-96.png" alt="vlc">
+                            </div>
+                            <div class="recent-app-text sml_font">
+                                <h4>Bootstrap video</h4>
+                                <p>Yesterday at 10:00 PM</p>
+                            </div>
+                        </div>
+                        <!-- vide0-3 -->
+                        <div class="all-recent-use-file-name fun-border-rad flex main-font-family">
+                            <div class="recent-aap-icon ">
+                                <img src="window-images/icons8-vlc-96.png" alt="vlc">
+                            </div>
+                            <div class="recent-app-text sml_font">
+                                <h4>Javascript video</h4>
+                                <p>Yesterday at 2:00 PM</p>
+                            </div>
+                        </div>
+                        <!-- video-4 -->
+                        <div class="all-recent-use-file-name fun-border-rad flex main-font-family">
+                            <div class="recent-aap-icon ">
+                                <img src="window-images/icons8-vlc-96.png" alt="vlc">
+                            </div>
+                            <div class="recent-app-text sml_font">
+                                <h4>video_1</h4>
+                                <p>23h ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ends -->
+                </div>
+                <!-- Taskbar-all-apps-page-2 -->
+                <div class="main-ALl-apps-moving-div cursor" id="Taskbar-Chnge-2">
+                    <!-- pinned heading -->
+                    <div class="pinned-main-div flex mar-bot fixed">
+                        <div>
+                            <h2>All apps</h2>
+                        </div>
+                        <div class="all-apps-btn flex fun-border-rad win-shadow main-font-family sml_font">
+                            <i class='fas fa-chevron-left'></i>
+                            <p>Back</p>
+                        </div>
+                    </div>
+                    <!-- ends -->   
+                    <!-- all-apps -->
+                    <!-- Most-used-apps -->
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">Most Used</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-chrome-96.png" alt="Google-crome">
+                        </div>
+                        <p class="main-font-family mar">Google Crome</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-visual-studio-code-2019-96.png" alt="VS-code">
+                        </div>
+                        <p class="main-font-family mar">Visual Studio Code</p>
+                    </div>
+                    <!-- 4 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-brave-web-browser-96.png" alt="Brave">
+                        </div>
+                        <p class="main-font-family mar">Brave</p>
+                    </div>
+                    <!-- 5 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-vlc-96.png" alt="VLC">
+                        </div>
+                        <p class="main-font-family mar">VLC media player</p>
+                    </div>
+                    <!-- 6 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-file-explorer-96.png" alt="File-Explorer">
+                        </div>
+                        <p class="main-font-family mar">File Explorer</p>
+                    </div>
+                    <!-- 7 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-photos-96.png" alt="photos">
+                        </div>
+                        <p class="main-font-family mar">Photos</p>
+                    </div>
+                    <!-- A-alphabet -->
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">A</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-microsoft-access-2019-96.png" alt="Microsoft access">
+                        </div>
+                        <p class="main-font-family mar">Access</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-folder-96.png" alt="Accessibility">
+                        </div>
+                        <p class="main-font-family mar">Accessibility</p>
+                    </div>
+                    <!-- 4 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-amazon-shopping-app-96.png" alt="Amazon">
+                        </div>
+                        <p class="main-font-family mar">Amazon</p>
+                    </div>
+                    <!-- 5 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-amazon-music-96.png" alt="Amazon music">
+                        </div>
+                        <p class="main-font-family mar">Amazon Music</p>
+                    </div>
+                    <!-- B alphabet -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">B</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-brave-web-browser-96.png" alt="Brave">
+                        </div>
+                        <p class="main-font-family mar">Brave</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-file-explorer-96.png" alt="File-Explorer">
+                        </div>
+                        <p class="main-font-family mar">Blackmagic Design</p>
+                    </div>
+                    <!-- C alphabet -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">C</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-calculator-96.png" alt="calculator">
+                        </div>
+                        <p class="main-font-family mar">calculator</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-calendar-96.png" alt="calender">
+                        </div>
+                        <p class="main-font-family mar">Calender</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-camera-96.png" alt="camera">
+                        </div>
+                        <p class="main-font-family mar">Camera</p>
+                    </div>
+                    <!-- 4 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-clock-64.png" alt="clock">
+                        </div>
+                        <p class="main-font-family mar">Clock</p>
+                    </div>
+                    <!-- 5 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-microsoft-cortana-96.png" alt="cortana">
+                        </div>
+                        <p class="main-font-family mar">Cortana</p>
+                    </div>
+                    <!-- D alphabet -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">D</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-discord-94.png" alt="Discord">
+                        </div>
+                        <p class="main-font-family mar">Discord</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-dolby-digital-96.png" alt="dolby access">
+                        </div>
+                        <p class="main-font-family mar">Dolby Access</p>
+                    </div>
+                    <!-- E alphabet -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">E</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-epic-games-96.png" alt="epic-launcher">
+                        </div>
+                        <p class="main-font-family mar">Epic Games Launcher</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-evernote-96.png" alt="evernote">
+                        </div>
+                        <p class="main-font-family mar">Evernote</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-microsoft-excel-2019-96.png" alt="Excel">
+                        </div>
+                        <p class="main-font-family mar">Excel</p>
+                    </div>
+                    <!-- F alphabet -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">F</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-comments-96.png" alt="feedback">
+                        </div>
+                        <p class="main-font-family mar">Feedback Hub</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-file-explorer-96.png" alt="File Explorer">
+                        </div>
+                        <p class="main-font-family mar">File Explorer</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-microsoft-films-&-tv-96.png" alt="film">
+                        </div>
+                        <p class="main-font-family mar">FIlm & TV</p>
+                    </div>
+                    <!-- G alphabet -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <p class="main-font mar">G</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-nvidia-96.png" alt="geforce">
+                        </div>
+                        <p class="main-font-family mar">Geforce Experience</p>
+                    </div>
+                    <!-- 2 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-ask-question-96.png" alt="Get Help">
+                        </div>
+                        <p class="main-font-family mar">Get Help</p>
+                    </div>
+                    <!-- 3 -->
+                    <div class="page-2-all-apps fun-border-rad flex">
+                        <div class="page-all-app-icon mar">
+                            <img src="window-images/icons8-chrome-96.png" alt="Google-crome">
+                        </div>
+                        <p class="main-font-family mar">Google Crome</p>
+                    </div>
+
+                </div>
+                <!-- Ends -->
+                <div class="line"></div>
+                <!-- Takbar-menu-footer -->
+                <div class="Taskbar_menu-foooter flex main-font-family cursor">
+                    <div class="taskbar-user-div flex-cent fun-border-rad">
+                        <div class="taskbar-user-profile"></div>
+                        <p>Devil's Era</p>
+                    </div>
+                    <div class="Log-out-btn fun-border-rad flex-cent"><i class="fa-solid fa-power-off"></i></div>
+                </div>
+                <!-- ends -->
+            </div>
+            <!-- ==============================Ends===================================== -->
+        </div>
+
+
+        <!--Taskbar  -->
+        <div id="MainTaskBar" class="task-bar flex-cent">
+            <!-- center icon -->
+            <div class="main-center flex">
+                <div class="win-icon icon-width icon-background-setting" id="win-icon"></div>
+                <div class="search-icon cursor flex-cent"><i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Search</p>
+                </div>
+                <div class="recent-icon icon-width icon-background-setting"></div>
+                <div class="video-icon icon-width icon-background-setting"></div>
+                <div class="file-icon icon-width icon-background-setting"></div>
+                <div class="gmail-icon icon-width icon-background-setting"></div>
+                <div class="edge-icon icon-width icon-background-setting"></div>
+                <div class="chrome-icon icon-width icon-background-setting"></div>
+                <div class="vs-code-icon icon-width icon-background-setting"></div>
+                <div class="whatsapp-icon icon-width icon-background-setting"></div>
+            </div>
+            <!-- end center icon -->
+
+            <!-- right-side-icon -->
+            <div class="right-side-icon flex">
+                <!-- Notification and date time -->
+                <div class="noti-date flex">
+                    <div class="notification">
+                        <div class="n-txt">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="date-time cursor">
+                        <h4 id="time"></h4>
+                        <h4 id="date"></h4>
+                    </div>
+                </div>
+                <!-- Ends -->
+
+                <!-- Wi-fi, Volume and battery -->
+                <div class="wifi-vol-bat flex" id="wi-vol">
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class='fas fa-volume-up'></i>
+                    <i class="fa-solid fa-battery-full bat-icon"></i>
+                    <i class='fas fa-battery-three-quarters bat-icon'></i>
+                    <i class='fas fa-battery-half bat-icon'></i>
+                    <i class='fas fa-battery-quarter bat-icon'></i>
+                    <i class='fas fa-battery-empty bat-icon'></i>
+                </div>
+                <!-- end -->
+
+                <!-- English -->
+                <div class="english flex cursor">
+                    <h4>ENG</h4>
+                    <h4>IN</h4>
+                </div>
+
+                <!-- Arrow notification -->
+                <div class="arrow"><i class='fas fa-chevron-up'></i>
+                </div>
+            </div>
+
+            <!-- left-side-wheather -->
+            <div class="left-side "></div>
+        </div>
+        <!-- taskbar-Ends -->
+    </div>
+
+</body>
+<script src="https://kit.fontawesome.com/4ef734d00d.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</html>
